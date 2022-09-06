@@ -1,0 +1,80 @@
+<!--  UW Coding Bootcamp "Prework Study Guide" Project.  -->
+<!--  HEAVILY COMMENTED, TO BE USED AS A LEARNING DEVICE!  -->
+
+<!--  Declare to the browser what document type it should expect.  -->
+<!DOCTYPE html>
+
+<!--  The root element of an HTML document. Contains all other HTML elements, except the DOCTYPE tag.  -->
+<!--  The "lang" tag should ALWAYS be included, and is used to declare the language of the webpage.  -->
+<html lang="en">
+
+  <!--  The head element is a container for metadata (data about data). Metadata is not displayed to the user.  -->
+  <head>
+    <!--  The charset specifics the character encoding for the HTML document. It is almost always UTF-8.  -->
+    <meta charset="UTF-8" />
+    <!--  The http-equiv sets an HTTP header for content.  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--  The viewport defines the default view for our webpage.  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  The title element defines the title of the document, which is required for HTML documents. This title appears on the tab of the web browser.  -->
+    <title>Prework Study Guide</title>
+  </head>
+
+  <!--  The body element contains the content that is visible to the user. All the content that is to be displayed must exist as a child of the body element.  -->
+  <body>
+    <!--  The header element represents a container for introductory content or a set of navigational links.  -->
+    <!--  The header element typically contains one (or more) heading elements, a logo or icon, and authorship information.  -->
+    <header id="header">
+      <!--  The highest level of the heading element for a text block. It is used for larger and more prominenet titles. Typically appears only ONCE per webpage. -->
+      <h1>Prework Study Guide</h1>
+      <!--  The img element contains information about images that are displayed on a webpage.  -->
+      <!--  The src attribute is the most important img attribute because it defines the location of the image file.  -->
+      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+    </header>
+
+    <!--  The main element specifies the main content of a document. There must not be more than one main element in a document. -->
+    <!--  The main element should be UNIQUE to the document. it should NOT contain any content repeated across documents (such as sidebars or navigation bars).  -->
+    <main>
+      <!--  The section element defines a section of related information in a document. -->
+      <section class="card" id="html-section">
+        <!--  The second highest level of the heading element.  -->
+        <h2>HTML</h2>
+        <!--  The ul element defines an unordered (bulleted) list.  -->
+        <ul>
+          <!--  The li element defines a list element.  -->
+          <li>The head element contains information about the webpage.</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>The comments of this index page contains related information about the various elements used.</li>
+        </ul>
+      </section>
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>Fill.</li>
+          <li>Later.</li>
+        </ul>
+      </section>
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>git status: checks what branch we are currently on.</li>
+          <li>git checkout -b branch-name: creates a new branch (in this case, called "branch-name") and switches to it.</li>
+        </ul>
+      </section>
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>Fill.</li>
+          <li>Later.</li>
+        </ul>
+      </section>
+    </main>
+
+    <!--  The footer element defines a footer for a document or section.  -->
+    <!--  The footer element typically contains authorship, copyright, and contact information, a sitemap, "back to top" links, and related documents.  -->
+    <footer>
+      <!--  The paragraph, or block of text, element.  -->
+      <p>I can code!</p>
+    </footer>
+  </body>
+</html>
